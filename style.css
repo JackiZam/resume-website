@@ -1,0 +1,233 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0% 0% 0% 0%;
+    padding: 0;
+}
+
+body {
+    color: #f0fffe;
+    background-color: #969696;
+}
+
+section:nth-child(4) {
+    background-color: #14213D;
+}
+
+
+section:nth-child(5) {
+    background-color: #969696;
+}
+
+
+section:nth-child(6) {
+    background-color: #14213D;
+}
+
+
+section:nth-child(7) {
+    background-color: #969696;
+}
+
+.name {
+    color: #FCA311;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    font-size: 4em;
+}
+
+.navItem {
+    text-decoration: none;
+}
+
+.box {
+    padding: 3%;
+    padding-bottom: 6%;
+}
+
+
+#header {
+    background-color: #14213D;
+    text-align: center;
+}
+
+#socials {
+    padding-top: 1%;
+}
+
+.lnLink {
+    width: 40px;
+    padding-right: 1%;
+}
+
+.emailLink {
+    width: 40px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.ghLink {
+    width: 40px;
+    padding-left: 1%;
+}
+
+.container {
+    position: relative;
+}
+
+#nav {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1.5em;
+    padding-right: 3%;
+    justify-content: space-evenly;
+    background-color: #5b81d1;
+}
+
+#nav a {
+    color: #f0fffe;
+    padding: 10px;
+}
+
+#ed {
+    background-color: #969696;
+}
+
+.title {
+    text-align: center;
+    color: #ffd037;
+    padding-bottom: 4%;
+    font-size: 3em;
+}
+
+#innerEd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.schoolPic {
+    width: 35%;
+    height: auto;
+}
+
+#edText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+#edText h3 {
+    font-size: 1.5em;
+    padding-bottom: 3%;
+}
+
+#proj {
+    background-color: #14213D;
+}
+
+#allProjs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.projImg {
+    width: 35%;
+    height: auto;
+}
+
+#oneProj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+#oneProj img {
+    padding-bottom: 5%;
+}
+
+#oneProj a {
+    color: #f0fffe;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#oneProj p {
+    padding-top: 1.5%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+#skills {
+    background-color: #969696;
+}
+
+#skillsList {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 auto;
+    font-size: 2em;
+    justify-content: center;
+}
+
+#skillsList p {
+    padding: 5%;
+    padding-top: 1%;
+}
+
+#orgs {
+    background-color: #14213D;
+    padding-bottom: 4.5%;
+}
+
+#club {
+    background-color: #2d4c91;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+#clubInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.25em;
+}
+
+#clubInfo h5 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1.5em;
+    padding-bottom: 0.3%
+}
+
+#club p {
+    font-size: 1.25em;
+}
+
+footer {
+    background-color: #14213D;
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 3.5%;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
